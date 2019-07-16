@@ -1,0 +1,28 @@
+.Weather {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color:rgba(0, 0, 0, 0.5);
+    border: 1px solid red;
+}
+
+.city {
+    color: white;
+    text-align: center;
+}
+.temp {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    color: white;
+}
+.temp p {
+    grid-column: 1/2;
+    font-weight: 600;
+}
+
+.valueTemp {
+    grid-column: 2/3;
+    align-self: center;
+    justify-self: center;
+    font-weight: 600;
+}
